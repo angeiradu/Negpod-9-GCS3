@@ -12,4 +12,4 @@ i=0
 while i<len(w):
     if w[i] not in v:
         print(w[i])
-    i+=1    
+    i+=1
