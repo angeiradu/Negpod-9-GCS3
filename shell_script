@@ -1,10 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Shell script that checks if a  file exists or not
 
-if [ ! -e "$1" ]; then
-        echo "2"
-elif [ -s "$1" ]; then
-        echo "0"
+if [  -f "$1" ]; then
+	if [ -s "$1" ]; then
+		echo "0"
+	else
+		echo "1"
+	fi
 else
-        echo "1"
+        echo "2"
 fi
