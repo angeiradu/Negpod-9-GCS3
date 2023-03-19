@@ -6,6 +6,7 @@
 #if m is odd in inclusive range 2-5 print Not Weird
 #if m is odd in inclusive range 6-20 print Weird
 #if m is odd and greater than 20 print Not Weird.
+m = 5
 
 if m % 2 == 0:
     print("Weird")
