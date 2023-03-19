@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Read the month name from the user
 month_name = input("Enter the name of a month: ")
 
