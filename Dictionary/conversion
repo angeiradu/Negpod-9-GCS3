@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-#Convert a Roman numeral to an integer
-
-from dictionary import roman_to_int
-
-numeral = "XIV"
-integer = roman_to_int(numeral)
-
-print(numeral, "is", integer)

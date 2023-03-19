@@ -16,3 +16,9 @@ def roman_to_int(roman_numeral):
 
 
     return result
+
+#Convert a Roman numeral to an integer
+numeral = "XIV"
+integer = roman_to_int(numeral)
+
+print(numeral, "is", integer)
