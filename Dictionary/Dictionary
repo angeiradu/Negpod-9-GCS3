@@ -14,12 +14,9 @@ def roman_to_int(roman_numeral):
     
     return result
 
-# Ask the user to enter a Roman numeral
+#Ask the user to enter a Roman numeral and convert it to an integer
 roman_numeral = input("Enter a Roman numeral: ")
-
-# Convert the Roman numeral to an integer
 integer = roman_to_int(roman_numeral)
 
-# Print the result
-print("The Roman numeral", roman_numeral, "is equivalent to the integer", integer)
+print(roman_numeral, "is", integer)
 
