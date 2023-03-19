@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+
+
+#this script prints odd and even numbers using an if statement.
+#if m is even print weird
+#if m is odd in inclusive range 2-5 print Not Weird
+#if m is odd in inclusive range 6-20 print Weird
+#if m is odd and greater than 20 print Not Weird.
+m = 5
+
+if m % 2 == 0:
+    print("Weird")
+elif m in range(2, 6):
+    print("Not Weird")
+elif m in range(6, 21):
+    print("Weird")
+else:
+    print("Not Weird") 

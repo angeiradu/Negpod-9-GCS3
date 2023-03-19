@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 n = int(input("Enter an integer: "))
 
 # loop through all numbers from 1 to n
